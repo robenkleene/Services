@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>329</string>
+	<string>339.2</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2</string>
+	<string>2.2.4</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -60,7 +60,7 @@
 					<key>replaceExisting</key>
 					<false/>
 					<key>toDirectory</key>
-					<string>~/Backups</string>
+					<string>~/Documents/Backups</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CopyFiles</string>
@@ -123,7 +123,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>365.500000:561.000000</string>
+				<string>309.500000:561.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Copy Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -592,7 +592,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>365.500000:458.000000</string>
+				<string>309.500000:458.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1061,7 +1061,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>365.500000:239.000000</string>
+				<string>309.500000:239.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1071,14 +1071,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1F7F5C27-9A3B-49BB-BEB9-3D35AFD5AEAF</key>
+		<key>5CE87058-6B97-45AC-A322-C8CCD5C2550E</key>
 		<dict>
 			<key>from</key>
 			<string>66727025-6E7B-48D8-ABB2-48CCBD8A57CB - 66727025-6E7B-48D8-ABB2-48CCBD8A57CB</string>
 			<key>to</key>
 			<string>457ACB55-226B-4BBF-8215-846741DA99B2 - 457ACB55-226B-4BBF-8215-846741DA99B2</string>
 		</dict>
-		<key>597D42BB-4B94-4FE2-A173-6CD67DB66F48</key>
+		<key>62C25395-28F5-4A94-A8C5-0970F8F8DA7E</key>
 		<dict>
 			<key>from</key>
 			<string>AB4A4B94-B1F4-4EDA-9911-7A6008AA70FB - AB4A4B94-B1F4-4EDA-9911-7A6008AA70FB</string>

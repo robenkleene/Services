@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>330</string>
+	<string>339.2</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.2</string>
+	<string>2.2.4</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -75,7 +75,7 @@
 					<key>checkedForDefaultEncoding</key>
 					<true/>
 					<key>newFileFolderPath</key>
-					<string>~/Backups</string>
+					<string>~/Documents/Backups</string>
 					<key>newFileName</key>
 					<string>Archived Text.txt</string>
 					<key>newFileTextEncoding</key>
@@ -206,7 +206,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>487.000000:650.000000</string>
+				<string>322.000000:638.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Text File.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -675,7 +675,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>487.000000:470.000000</string>
+				<string>322.000000:458.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1144,7 +1144,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>487.000000:251.000000</string>
+				<string>322.000000:239.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1154,14 +1154,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1E773E93-8499-4176-AEE6-B46906138CCD</key>
+		<key>31CA8A29-E749-42FD-834F-8DA536BE949C</key>
 		<dict>
 			<key>from</key>
 			<string>A6D28365-62A8-4F5E-97F1-D442855695B5 - A6D28365-62A8-4F5E-97F1-D442855695B5</string>
 			<key>to</key>
 			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
 		</dict>
-		<key>7A79FC28-89F2-4867-A7E5-93BE9DC6F505</key>
+		<key>849B2550-FD0F-42D7-A0C6-A8B8E0A20800</key>
 		<dict>
 			<key>from</key>
 			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
