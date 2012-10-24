@@ -1189,23 +1189,23 @@
 					<key>enteredRTFDData</key>
 					<data>
 					cnRmZAAAAAADAAAAAgAAAAcAAABUWFQucnRm
-					AQAAAC71AAAAKwAAAAEAAADtAAAAe1xydGYx
+					AQAAAC4LAQAAKwAAAAEAAAADAQAAe1xydGYx
 					XGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYx
-					MTg3CntcZm9udHRibFxmMFxmc3dpc3NcZmNo
-					YXJzZXQwIEhlbHZldGljYTt9CntcY29sb3J0
-					Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1
-					O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4
-					MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5
-					MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2
-					MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsCgpc
-					ZjBcZnMyNCBcY2YwICB9AQAAACMAAAABAAAA
-					BwAAAFRYVC5ydGYQAAAA19YvULYBAAAAAAAA
-					AAAAAA==
+					MTg3XGNvY29hc3VicnRmMzQwCntcZm9udHRi
+					bFxmMFxmc3dpc3NcZmNoYXJzZXQwIEhlbHZl
+					dGljYTt9CntcY29sb3J0Ymw7XHJlZDI1NVxn
+					cmVlbjI1NVxibHVlMjU1O30KXHBhcmRcdHg1
+					NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgy
+					ODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4
+					NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+					YXJkaXJuYXR1cmFsCgpcZjBcZnMyNCBcY2Yw
+					IEFyY2hpdmVkfQEAAAAjAAAAAQAAAAcAAABU
+					WFQucnRmEAAAACMuX1C2AQAAAAAAAAAAAAA=
 					</data>
 					<key>enteredRTFDText</key>
 					<string></string>
 					<key>enteredText</key>
-					<string> </string>
+					<string>Archived</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.GetSpecifiedText</string>
@@ -1278,19 +1278,32 @@
 	</array>
 	<key>connectors</key>
 	<dict>
+<<<<<<< HEAD
 		<key>53A45DEA-3453-48C6-8299-B3EEED3ABCBD</key>
+=======
+		<key>140E6373-E9B8-4D48-A2EC-F0BB1C82BDAF</key>
+>>>>>>> 34e0bcdb362715ea55be65c619c267063eec212d
 		<dict>
 			<key>from</key>
-			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
-			<key>to</key>
 			<string>F389B7C4-41B4-4B96-BCA0-CC43D3C6D05D - F389B7C4-41B4-4B96-BCA0-CC43D3C6D05D</string>
 		</dict>
+<<<<<<< HEAD
 		<key>DA8C326B-EDF1-4CD6-9A30-8F0D6034904A</key>
+=======
+		<key>834CEC3F-DC6A-4F3C-911B-BF3C6101640A</key>
 		<dict>
 			<key>from</key>
 			<string>A6D28365-62A8-4F5E-97F1-D442855695B5 - A6D28365-62A8-4F5E-97F1-D442855695B5</string>
 			<key>to</key>
 			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
+		</dict>
+		<key>C7C569DE-D325-41F6-9E7C-1FF6D06697B8</key>
+>>>>>>> 34e0bcdb362715ea55be65c619c267063eec212d
+		<dict>
+			<key>from</key>
+			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
+			<key>to</key>
+			<string>F389B7C4-41B4-4B96-BCA0-CC43D3C6D05D - F389B7C4-41B4-4B96-BCA0-CC43D3C6D05D</string>
 		</dict>
 		<key>F61F94CA-650C-4FC0-A0CF-972FE7957572</key>
 		<dict>
