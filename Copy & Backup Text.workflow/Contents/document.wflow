@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>339.2</string>
+	<string>346</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.4</string>
+	<string>2.3</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -26,7 +26,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.2</string>
+				<string>2.2.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -75,7 +75,7 @@
 					<key>checkedForDefaultEncoding</key>
 					<true/>
 					<key>newFileFolderPath</key>
-					<string>~/Documents/Backups</string>
+					<string>~/Backups</string>
 					<key>newFileName</key>
 					<string>Archived Text.txt</string>
 					<key>newFileTextEncoding</key>
@@ -88,7 +88,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.NewTextFile</string>
 				<key>CFBundleVersion</key>
-				<string>2.2</string>
+				<string>2.2.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -206,7 +206,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>322.000000:638.000000</string>
+				<string>392.500000:638.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Text File.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -228,7 +228,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -343,7 +343,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -675,7 +675,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>322.000000:458.000000</string>
+				<string>392.500000:458.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -697,7 +697,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -812,7 +812,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1144,7 +1144,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>322.000000:239.000000</string>
+				<string>392.500000:239.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1154,14 +1154,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>31CA8A29-E749-42FD-834F-8DA536BE949C</key>
+		<key>3FCA8DC7-2F82-4A49-B4BC-16537EB05BB1</key>
 		<dict>
 			<key>from</key>
 			<string>A6D28365-62A8-4F5E-97F1-D442855695B5 - A6D28365-62A8-4F5E-97F1-D442855695B5</string>
 			<key>to</key>
 			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
 		</dict>
-		<key>849B2550-FD0F-42D7-A0C6-A8B8E0A20800</key>
+		<key>80723316-A591-4740-A4E8-5DC91A495301</key>
 		<dict>
 			<key>from</key>
 			<string>DB080C1C-F423-44BD-838A-23F5DE0D22BF - DB080C1C-F423-44BD-838A-23F5DE0D22BF</string>
