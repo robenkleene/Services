@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>339.2</string>
+	<string>346</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.4</string>
+	<string>2.3</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -25,7 +25,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0</string>
+				<string>2.0.1</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -60,12 +60,12 @@
 					<key>replaceExisting</key>
 					<false/>
 					<key>toDirectory</key>
-					<string>~/Documents/Backups</string>
+					<string>~/Backups</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.CopyFiles</string>
 				<key>CFBundleVersion</key>
-				<string>2.0</string>
+				<string>2.0.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<true/>
 				<key>CanShowWhenRun</key>
@@ -145,7 +145,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -260,7 +260,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -614,7 +614,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Finder</string>
@@ -729,7 +729,7 @@
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.AddNumbersToFinderNames</string>
 				<key>CFBundleVersion</key>
-				<string>1.3.1</string>
+				<string>1.3.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -1071,14 +1071,14 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5CE87058-6B97-45AC-A322-C8CCD5C2550E</key>
+		<key>1E01D54A-E4F1-47EB-A877-7A155862828B</key>
 		<dict>
 			<key>from</key>
 			<string>66727025-6E7B-48D8-ABB2-48CCBD8A57CB - 66727025-6E7B-48D8-ABB2-48CCBD8A57CB</string>
 			<key>to</key>
 			<string>457ACB55-226B-4BBF-8215-846741DA99B2 - 457ACB55-226B-4BBF-8215-846741DA99B2</string>
 		</dict>
-		<key>62C25395-28F5-4A94-A8C5-0970F8F8DA7E</key>
+		<key>456E6109-9AF0-4277-B4F9-6EF74C30C8C8</key>
 		<dict>
 			<key>from</key>
 			<string>AB4A4B94-B1F4-4EDA-9911-7A6008AA70FB - AB4A4B94-B1F4-4EDA-9911-7A6008AA70FB</string>
