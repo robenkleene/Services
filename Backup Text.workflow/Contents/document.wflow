@@ -18,29 +18,30 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
-					<false/>
+					<true/>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
+				<string>2.0.3</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
 				</dict>
 				<key>AMProvides</key>
 				<dict>
@@ -48,26 +49,32 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>*</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action</string>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>Set Value of Variable</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>variableUUID</key>
-					<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
+					<key>COMMAND_STRING</key>
+					<string>~/Development/Scripts/bin/backup-text</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
+				<string>2.0.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -75,21 +82,21 @@
 					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>Set_Value_of_Variable</string>
+				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>7981C34F-54F1-42BE-8AB3-8DAC8F8CB75E</string>
+				<string>58F168A2-5056-4E0F-B33D-41C0ED5E8E43</string>
 				<key>Keywords</key>
 				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>47ED9373-3BCB-49ED-A5FA-7C72A85246DA</string>
+				<string>C0FF717D-28CB-4684-95FA-52BA5C5A33F6</string>
 				<key>UUID</key>
-				<string>6D3D7B75-1761-4524-8196-F8F8A5400712</string>
+				<string>90F0F720-3F3C-4D05-A61A-BB970FE4ED68</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -99,129 +106,9 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<integer>0</integer>
 						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>352.500000:176.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.2.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>newName</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>$(C9A22402-08AC-441A-978D-F5B7DEE49EE1)</string>
-							<string>-</string>
-							<string>$(BD71413B-AE97-4A4C-9578-D55D28246E84)</string>
-							<string>-</string>
-							<string>$(E31A449B-1721-4D5C-A167-DE297DAFB771)</string>
-						</array>
-					</dict>
-					<key>targetLocation</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<true/>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/New Folder.action</string>
-				<key>ActionName</key>
-				<string>New Folder</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>newName</key>
-					<string>$(C9A22402-08AC-441A-978D-F5B7DEE49EE1)-$(BD71413B-AE97-4A4C-9578-D55D28246E84)-$(E31A449B-1721-4D5C-A167-DE297DAFB771)</string>
-					<key>targetLocation</key>
-					<string>~/Archive/Text</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.MakeNewFolder</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>NewFolderAction</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>689B070E-B8D1-4332-860C-A876A98CCB15</string>
-				<key>Keywords</key>
-				<array>
-					<string>Folder</string>
-					<string>Create</string>
-					<string>Make</string>
-					<string>New</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>F3FCCC3E-21DA-4149-A854-393C6C142C8C</string>
-				<key>UUID</key>
-				<string>D78B98C2-ADF6-47FC-AC76-40282EEE29A2</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>newName</string>
+						<string>inputMethod</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -232,9 +119,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string>~/Desktop</string>
+						<string></string>
 						<key>name</key>
-						<string>targetLocation</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -242,235 +129,52 @@
 						<key>uuid</key>
 						<string>1</string>
 					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>352.500000:306.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Set Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Set_Value_of_Variable</string>
-				<key>InputUUID</key>
-				<string>A2B53022-7ECC-4C11-A442-CBC4DFB542C2</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>374CAAA2-2B9E-4963-96DE-B0C5621E5A6A</string>
-				<key>UUID</key>
-				<string>F3893CC0-EF15-4986-B76F-0DD3FFB93A2F</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
+					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>variableUUID</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
-						<string>0</string>
+						<string>2</string>
 					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>352.500000:412.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
-						<key>variableUUIDsInMenu</key>
-						<array/>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Get Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Get_Value_of_Variable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Get_Value_of_Variable</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>C33EC011-63B2-4F1B-8AC1-A672ED538427</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>51573415-75CB-41BB-AB79-7C11B179EC00</string>
-				<key>UUID</key>
-				<string>5E4371D6-A11E-4759-BEB0-F424C33FA9CF</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
+					<key>3</key>
 					<dict>
 						<key>default value</key>
 						<string></string>
 						<key>name</key>
-						<string>variableUUID</string>
+						<string>COMMAND_STRING</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
 						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:515.000000</string>
+				<string>352.500000:253.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -487,50 +191,25 @@
 					<key>Types</key>
 					<array>
 						<string>com.apple.cocoa.string</string>
-						<string>com.apple.cocoa.attributed-string</string>
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>v.2.2.1</string>
+				<string>2.0.3</string>
 				<key>AMApplication</key>
 				<array>
-					<string>Finder</string>
-					<string>TextEdit</string>
+					<string>Automator</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>checkedForDefaultEncoding</key>
+					<key>COMMAND_STRING</key>
 					<dict/>
-					<key>newFileFolderPath</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<true/>
-						<key>selectedVariableUUID</key>
-						<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-						<key>variableUUIDsInMenu</key>
-						<array>
-							<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-						</array>
-					</dict>
-					<key>newFileName</key>
-					<dict>
-						<key>tokenizedValue</key>
-						<array>
-							<string>$(C9A22402-08AC-441A-978D-F5B7DEE49EE1)</string>
-							<string>-</string>
-							<string>$(BD71413B-AE97-4A4C-9578-D55D28246E84)</string>
-							<string>-</string>
-							<string>$(E31A449B-1721-4D5C-A167-DE297DAFB771)</string>
-							<string> Archived Text </string>
-							<string>$(B072A8C7-B533-4EF2-BF35-AE2526970432)</string>
-							<string>.txt</string>
-						</array>
-					</dict>
-					<key>newFileTextEncoding</key>
+					<key>CheckedForUserDefaultShell</key>
 					<dict/>
-					<key>replaceExistingFiles</key>
+					<key>inputMethod</key>
 					<dict/>
-					<key>textFormat</key>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -539,62 +218,57 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/New Text File.action</string>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
 				<key>ActionName</key>
-				<string>New Text File</string>
+				<string>Run Shell Script</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>checkedForDefaultEncoding</key>
+					<key>COMMAND_STRING</key>
+					<string>cat $1</string>
+					<key>CheckedForUserDefaultShell</key>
 					<true/>
-					<key>newFileFolderPath</key>
-					<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-					<key>newFileName</key>
-					<string>$(C9A22402-08AC-441A-978D-F5B7DEE49EE1)-$(BD71413B-AE97-4A4C-9578-D55D28246E84)-$(E31A449B-1721-4D5C-A167-DE297DAFB771) Archived Text $(B072A8C7-B533-4EF2-BF35-AE2526970432).txt</string>
-					<key>newFileTextEncoding</key>
-					<integer>4</integer>
-					<key>replaceExistingFiles</key>
-					<integer>0</integer>
-					<key>textFormat</key>
+					<key>inputMethod</key>
 					<integer>1</integer>
+					<key>shell</key>
+					<string>/bin/bash</string>
+					<key>source</key>
+					<string></string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.NewTextFile</string>
+				<string>com.apple.RunShellScript</string>
 				<key>CFBundleVersion</key>
-				<string>2.2.1</string>
+				<string>2.0.3</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
 				<array>
-					<string>AMCategoryText</string>
+					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>AMNewTextFileAction</string>
+				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>90BF00FF-2612-45C9-B232-A57E87A807D0</string>
+				<string>BA79A21B-238D-4CFF-956B-6C7519D18E56</string>
 				<key>Keywords</key>
 				<array>
-					<string>Create</string>
-					<string>Make</string>
-					<string>File</string>
-					<string>Text</string>
-					<string>Save</string>
-					<string>New</string>
-					<string>Document</string>
+					<string>Shell</string>
+					<string>Script</string>
+					<string>Command</string>
+					<string>Run</string>
+					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>788193AB-7BAC-46A1-9857-813527ED4FE0</string>
+				<string>A6FDFEC2-C71C-4258-BC02-225FE1425B0A</string>
 				<key>UUID</key>
-				<string>EEA2C409-30F3-45A7-9CC3-6B56CF738B50</string>
+				<string>441ED124-E5B7-41FD-974D-6922BBA6DB1F</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>Finder</string>
-					<string>TextEdit</string>
+					<string>Automator</string>
 				</array>
 				<key>arguments</key>
 				<dict>
@@ -603,7 +277,7 @@
 						<key>default value</key>
 						<integer>0</integer>
 						<key>name</key>
-						<string>newFileTextEncoding</string>
+						<string>inputMethod</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -614,9 +288,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>replaceExistingFiles</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -627,9 +301,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<string>~/Desktop</string>
+						<false/>
 						<key>name</key>
-						<string>newFileFolderPath</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -640,9 +314,9 @@
 					<key>3</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>checkedForDefaultEncoding</string>
+						<string>COMMAND_STRING</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -653,9 +327,9 @@
 					<key>4</key>
 					<dict>
 						<key>default value</key>
-						<string>Untitled.txt</string>
+						<string>/bin/sh</string>
 						<key>name</key>
-						<string>newFileName</string>
+						<string>shell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -663,26 +337,123 @@
 						<key>uuid</key>
 						<string>4</string>
 					</dict>
-					<key>5</key>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>352.500000:436.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>9F0CA239-6145-4021-9516-7B6742E130AC</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>Set Value of Variable</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>9F0CA239-6145-4021-9516-7B6742E130AC</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Set_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>1492321E-7FDA-498F-8D5D-FBA53056DA08</string>
+				<key>Keywords</key>
+				<array>
+					<string>variable</string>
+					<string>binding</string>
+					<string>input</string>
+					<string>output</string>
+					<string>storage</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>148E0541-9FD3-4E43-A582-998A7A9A3C7A</string>
+				<key>UUID</key>
+				<string>27DA15D6-2B33-4764-8C63-4B225F841240</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string></string>
 						<key>name</key>
-						<string>textFormat</string>
+						<string>variableUUID</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
-						<string>5</string>
+						<string>0</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:695.000000</string>
+				<string>352.500000:542.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/New Text File.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -711,7 +482,7 @@
 					<dict>
 						<key>tokenizedValue</key>
 						<array>
-							<string>$(698FA415-58F8-4B05-ADE7-A9463414D0AB)</string>
+							<string>$(9F0CA239-6145-4021-9516-7B6742E130AC)</string>
 						</array>
 					</dict>
 					<key>subtitle</key>
@@ -741,7 +512,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>message</key>
-					<string>$(698FA415-58F8-4B05-ADE7-A9463414D0AB)</string>
+					<string>$(9F0CA239-6145-4021-9516-7B6742E130AC)</string>
 					<key>subtitle</key>
 					<string></string>
 					<key>title</key>
@@ -820,7 +591,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:885.000000</string>
+				<string>352.500000:732.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -992,7 +763,7 @@ echo</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:1068.000000</string>
+				<string>352.500000:915.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -1002,61 +773,37 @@ echo</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1346A791-0732-4A8C-9145-00B666251359</key>
+		<key>41872B52-7B70-426D-A849-4C73A4675B4D</key>
 		<dict>
 			<key>from</key>
-			<string>F3893CC0-EF15-4986-B76F-0DD3FFB93A2F - F3893CC0-EF15-4986-B76F-0DD3FFB93A2F</string>
-			<key>to</key>
-			<string>5E4371D6-A11E-4759-BEB0-F424C33FA9CF - 5E4371D6-A11E-4759-BEB0-F424C33FA9CF</string>
-		</dict>
-		<key>1919D15C-1FF2-43F7-A71C-D262E5B0D056</key>
-		<dict>
-			<key>from</key>
-			<string>EEA2C409-30F3-45A7-9CC3-6B56CF738B50 - EEA2C409-30F3-45A7-9CC3-6B56CF738B50</string>
+			<string>27DA15D6-2B33-4764-8C63-4B225F841240 - 27DA15D6-2B33-4764-8C63-4B225F841240</string>
 			<key>to</key>
 			<string>D27A5060-B858-4884-BBBA-36F529478E1A - D27A5060-B858-4884-BBBA-36F529478E1A</string>
 		</dict>
-		<key>7B468A51-6B10-4902-81C5-4DD93E063EF2</key>
+		<key>6B392D8B-F243-4657-B970-FB7934EE9E3F</key>
 		<dict>
 			<key>from</key>
-			<string>5E4371D6-A11E-4759-BEB0-F424C33FA9CF - 5E4371D6-A11E-4759-BEB0-F424C33FA9CF</string>
+			<string>90F0F720-3F3C-4D05-A61A-BB970FE4ED68 - 90F0F720-3F3C-4D05-A61A-BB970FE4ED68</string>
 			<key>to</key>
-			<string>EEA2C409-30F3-45A7-9CC3-6B56CF738B50 - EEA2C409-30F3-45A7-9CC3-6B56CF738B50</string>
+			<string>441ED124-E5B7-41FD-974D-6922BBA6DB1F - 441ED124-E5B7-41FD-974D-6922BBA6DB1F</string>
 		</dict>
-		<key>E88BB9D8-D61E-4ED0-BD9A-4FF151BCEBC4</key>
-		<dict>
-			<key>from</key>
-			<string>6D3D7B75-1761-4524-8196-F8F8A5400712 - 6D3D7B75-1761-4524-8196-F8F8A5400712</string>
-			<key>to</key>
-			<string>D78B98C2-ADF6-47FC-AC76-40282EEE29A2 - D78B98C2-ADF6-47FC-AC76-40282EEE29A2</string>
-		</dict>
-		<key>F277FE64-0059-4C42-A882-5CCBF9B50064</key>
-		<dict>
-			<key>from</key>
-			<string>D78B98C2-ADF6-47FC-AC76-40282EEE29A2 - D78B98C2-ADF6-47FC-AC76-40282EEE29A2</string>
-			<key>to</key>
-			<string>F3893CC0-EF15-4986-B76F-0DD3FFB93A2F - F3893CC0-EF15-4986-B76F-0DD3FFB93A2F</string>
-		</dict>
-		<key>F6F4FD51-7F19-4EA6-84DD-68D3126C7F30</key>
+		<key>ABDA11D6-4368-46AE-9BC7-0EB173ECD9DC</key>
 		<dict>
 			<key>from</key>
 			<string>D27A5060-B858-4884-BBBA-36F529478E1A - D27A5060-B858-4884-BBBA-36F529478E1A</string>
 			<key>to</key>
 			<string>78594A76-786C-484D-A462-EC3EB75D5637 - 78594A76-786C-484D-A462-EC3EB75D5637</string>
 		</dict>
+		<key>EFFB45F6-9451-4A26-BBAC-D09E80AF721B</key>
+		<dict>
+			<key>from</key>
+			<string>441ED124-E5B7-41FD-974D-6922BBA6DB1F - 441ED124-E5B7-41FD-974D-6922BBA6DB1F</string>
+			<key>to</key>
+			<string>27DA15D6-2B33-4764-8C63-4B225F841240 - 27DA15D6-2B33-4764-8C63-4B225F841240</string>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<array>
-		<dict>
-			<key>UUID</key>
-			<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Text</string>
-			<key>name</key>
-			<string>Text</string>
-			<key>value</key>
-			<string>Text</string>
-		</dict>
 		<dict>
 			<key>UUID</key>
 			<string>C9A22402-08AC-441A-978D-F5B7DEE49EE1</string>
@@ -1077,14 +824,6 @@ echo</string>
 		</dict>
 		<dict>
 			<key>UUID</key>
-			<string>4EA76623-1798-4FC5-A883-2D105A1317E7</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Storage</string>
-			<key>name</key>
-			<string>Destination</string>
-		</dict>
-		<dict>
-			<key>UUID</key>
 			<string>B072A8C7-B533-4EF2-BF35-AE2526970432</string>
 			<key>identifier</key>
 			<string>com.apple.Automator.Variable.CurrentTime</string>
@@ -1097,6 +836,14 @@ echo</string>
 				<string>ss</string>
 				<string>SSS</string>
 			</array>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>9F0CA239-6145-4021-9516-7B6742E130AC</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Text</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
