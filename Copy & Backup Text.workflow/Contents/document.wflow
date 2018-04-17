@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.7</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>~/Development/Scripts/bin/backup-text</string>
+					<string>~/.bin/backup-text</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -169,12 +169,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:253.000000</string>
+				<string>501.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -340,12 +338,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:436.000000</string>
+				<string>501.000000:436.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -405,7 +401,7 @@
 					<string>698FA415-58F8-4B05-ADE7-A9463414D0AB</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<string>com.apple.Automator.SetValueofVariable</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -430,8 +426,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>954C7269-9C04-48A9-89AE-E3F0FA7CAFE5</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
 				<key>UnlocalizedApplications</key>
@@ -454,12 +448,10 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:542.000000</string>
+				<string>501.000000:542.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -548,8 +540,6 @@
 				<array/>
 				<key>OutputUUID</key>
 				<string>BD7FC18B-27A6-4571-B61C-082FFA55BE85</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>D27A5060-B858-4884-BBBA-36F529478E1A</string>
 				<key>UnlocalizedApplications</key>
@@ -601,7 +591,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>352.500000:732.000000</string>
+				<string>501.000000:732.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -611,21 +601,21 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>067AFF61-D5CF-44A6-88FD-D71616DAD131</key>
+		<key>785D3C69-2D81-4ACE-BEE8-46A9A32C0760</key>
 		<dict>
 			<key>from</key>
 			<string>202F5DF5-C6CC-4A43-B79F-BE43A9A32193 - 202F5DF5-C6CC-4A43-B79F-BE43A9A32193</string>
 			<key>to</key>
 			<string>EDBC304E-7E92-4A96-9B30-B88A52D52B31 - EDBC304E-7E92-4A96-9B30-B88A52D52B31</string>
 		</dict>
-		<key>CE63AE85-3375-4D65-B716-B42D47998FB1</key>
+		<key>B5C57A07-12DB-459A-842B-1B0151BB2E71</key>
 		<dict>
 			<key>from</key>
 			<string>EDBC304E-7E92-4A96-9B30-B88A52D52B31 - EDBC304E-7E92-4A96-9B30-B88A52D52B31</string>
 			<key>to</key>
 			<string>D3EF1E62-11DC-4179-A86F-5ED56888795A - D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
 		</dict>
-		<key>E33C88AC-DFC5-46E9-9156-F92883DC7BBC</key>
+		<key>BB06B1EE-B6EE-4299-AE3A-B73744D91F67</key>
 		<dict>
 			<key>from</key>
 			<string>D3EF1E62-11DC-4179-A86F-5ED56888795A - D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
