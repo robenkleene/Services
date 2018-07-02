@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>~/.bin/backup-text</string>
+					<string>~/.bin/backup_text</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,7 +172,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:253.000000</string>
+				<string>352.500000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -341,7 +341,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:436.000000</string>
+				<string>352.500000:436.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -451,7 +451,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:542.000000</string>
+				<string>352.500000:542.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -591,7 +591,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:732.000000</string>
+				<string>352.500000:732.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -601,26 +601,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>785D3C69-2D81-4ACE-BEE8-46A9A32C0760</key>
+		<key>290043C4-30F6-412F-A62C-C4FCB0849693</key>
 		<dict>
 			<key>from</key>
 			<string>202F5DF5-C6CC-4A43-B79F-BE43A9A32193 - 202F5DF5-C6CC-4A43-B79F-BE43A9A32193</string>
 			<key>to</key>
 			<string>EDBC304E-7E92-4A96-9B30-B88A52D52B31 - EDBC304E-7E92-4A96-9B30-B88A52D52B31</string>
 		</dict>
-		<key>B5C57A07-12DB-459A-842B-1B0151BB2E71</key>
-		<dict>
-			<key>from</key>
-			<string>EDBC304E-7E92-4A96-9B30-B88A52D52B31 - EDBC304E-7E92-4A96-9B30-B88A52D52B31</string>
-			<key>to</key>
-			<string>D3EF1E62-11DC-4179-A86F-5ED56888795A - D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
-		</dict>
-		<key>BB06B1EE-B6EE-4299-AE3A-B73744D91F67</key>
+		<key>74716908-6E70-4200-919B-1CFE17E75383</key>
 		<dict>
 			<key>from</key>
 			<string>D3EF1E62-11DC-4179-A86F-5ED56888795A - D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
 			<key>to</key>
 			<string>D27A5060-B858-4884-BBBA-36F529478E1A - D27A5060-B858-4884-BBBA-36F529478E1A</string>
+		</dict>
+		<key>B2A7D907-62B2-49FC-8D52-71D5CEE38996</key>
+		<dict>
+			<key>from</key>
+			<string>EDBC304E-7E92-4A96-9B30-B88A52D52B31 - EDBC304E-7E92-4A96-9B30-B88A52D52B31</string>
+			<key>to</key>
+			<string>D3EF1E62-11DC-4179-A86F-5ED56888795A - D3EF1E62-11DC-4179-A86F-5ED56888795A</string>
 		</dict>
 	</dict>
 	<key>variables</key>
