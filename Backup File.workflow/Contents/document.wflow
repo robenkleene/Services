@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.39</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -63,7 +63,7 @@
 					<string>90D053A1-2AFF-4EB5-97B7-763EA8A8F038</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<string>com.apple.Automator.SetValueofVariable</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -113,7 +113,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:176.000000</string>
+				<string>309.000000:228.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -597,7 +597,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:388.000000</string>
+				<string>309.000000:439.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1081,7 +1081,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:600.000000</string>
+				<string>309.000000:650.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Rename Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1138,7 +1138,7 @@
 					<key>replaceExisting</key>
 					<false/>
 					<key>toDirectory</key>
-					<string>~/Archive/Text</string>
+					<string>~/Documents/Archive/Text</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MoveFiles</string>
@@ -1201,7 +1201,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:703.000000</string>
+				<string>309.000000:752.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1261,7 +1261,7 @@
 					<string>2419C891-B863-4E91-AEE0-0857154C5312</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<string>com.apple.Automator.SetValueofVariable</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -1311,7 +1311,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:809.000000</string>
+				<string>309.000000:857.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1367,7 +1367,7 @@
 					<string>List</string>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.path</string>
+						<string>public.folder</string>
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
@@ -1379,7 +1379,7 @@
 					<key>newName</key>
 					<string>$(5BA68204-6546-4DC7-821B-FE58683527CF)-$(BFC5FB9F-CF4B-46AD-AE72-50FB8E9547B2)-$(CD255BB8-34F9-4AAD-ACF9-ADFB6ED17F08)</string>
 					<key>targetLocation</key>
-					<string>~/Archive/Text</string>
+					<string>~/Documents/Archive/Text</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.MakeNewFolder</string>
@@ -1446,7 +1446,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:939.000000</string>
+				<string>309.000000:986.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/New Folder.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1506,7 +1506,7 @@
 					<string>131E4DB2-4D0A-4405-A52C-961C87C4E8A0</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Set_Value_of_Variable</string>
+				<string>com.apple.Automator.SetValueofVariable</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -1556,7 +1556,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:1045.000000</string>
+				<string>309.000000:1091.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1616,7 +1616,7 @@
 					<string>2419C891-B863-4E91-AEE0-0857154C5312</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Get_Value_of_Variable</string>
+				<string>com.apple.Automator.GetValueofVariable</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -1668,7 +1668,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:1148.000000</string>
+				<string>309.000000:1193.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1792,7 +1792,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:1251.000000</string>
+				<string>309.000000:1295.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1932,7 +1932,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>501.000000:1441.000000</string>
+				<string>309.000000:1484.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -1942,68 +1942,68 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>13F5A6AB-EB07-4A2E-B806-020976F6BFC9</key>
+		<key>06712719-DFDE-421C-B0F5-47AF4E5EB1F4</key>
 		<dict>
 			<key>from</key>
-			<string>D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D - D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D</string>
-			<key>to</key>
 			<string>3174DE13-BB77-4C54-9DB3-13F7008DAD51 - 3174DE13-BB77-4C54-9DB3-13F7008DAD51</string>
-		</dict>
-		<key>18D2AFFA-F732-4658-8545-96F108A2E5D6</key>
-		<dict>
-			<key>from</key>
-			<string>F744D065-993A-4F66-82B4-4BC8196E6801 - F744D065-993A-4F66-82B4-4BC8196E6801</string>
 			<key>to</key>
-			<string>15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B - 15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B</string>
+			<string>F744D065-993A-4F66-82B4-4BC8196E6801 - F744D065-993A-4F66-82B4-4BC8196E6801</string>
 		</dict>
-		<key>60E7322A-CE69-4F4A-AE09-A6245E59275F</key>
+		<key>1E22B3E8-BBFC-4268-8D06-8CD9FB22E89B</key>
 		<dict>
 			<key>from</key>
 			<string>B3CE5796-2936-47BD-9968-D0D165F4C35C - B3CE5796-2936-47BD-9968-D0D165F4C35C</string>
 			<key>to</key>
 			<string>67CD68E5-E9E7-44CC-9B4C-E673368A941F - 67CD68E5-E9E7-44CC-9B4C-E673368A941F</string>
 		</dict>
-		<key>A03D1CD2-1EC4-4E5B-807A-5BC523929C6B</key>
-		<dict>
-			<key>from</key>
-			<string>87951FDD-6900-4527-A31B-41F231A1C67F - 87951FDD-6900-4527-A31B-41F231A1C67F</string>
-			<key>to</key>
-			<string>F32972ED-FB47-44A2-9AC8-4FABD33364B7 - F32972ED-FB47-44A2-9AC8-4FABD33364B7</string>
-		</dict>
-		<key>B9A3D635-C245-4A8B-AA40-788EFF19ABCD</key>
-		<dict>
-			<key>from</key>
-			<string>A90ACA99-6EF8-47AA-BAC7-A2EC5E2FD6C3 - A90ACA99-6EF8-47AA-BAC7-A2EC5E2FD6C3</string>
-			<key>to</key>
-			<string>87951FDD-6900-4527-A31B-41F231A1C67F - 87951FDD-6900-4527-A31B-41F231A1C67F</string>
-		</dict>
-		<key>BF1FB73F-FB90-4F1F-AEEF-23BD7BA5FB52</key>
-		<dict>
-			<key>from</key>
-			<string>15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B - 15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B</string>
-			<key>to</key>
-			<string>B3CE5796-2936-47BD-9968-D0D165F4C35C - B3CE5796-2936-47BD-9968-D0D165F4C35C</string>
-		</dict>
-		<key>C7CAB24B-32E7-48B2-BA66-65F384D1E2D1</key>
+		<key>30044CF0-BA6A-4F43-952B-1B017B1610F1</key>
 		<dict>
 			<key>from</key>
 			<string>67CD68E5-E9E7-44CC-9B4C-E673368A941F - 67CD68E5-E9E7-44CC-9B4C-E673368A941F</string>
 			<key>to</key>
 			<string>2279F2B0-F749-4803-8AA3-550BAD3D0823 - 2279F2B0-F749-4803-8AA3-550BAD3D0823</string>
 		</dict>
-		<key>DC74060D-9B89-4B95-ADC3-50EE73CFEBF6</key>
+		<key>6E0D9029-3027-4B08-9BB4-EFD43FF4AD1D</key>
 		<dict>
 			<key>from</key>
 			<string>F32972ED-FB47-44A2-9AC8-4FABD33364B7 - F32972ED-FB47-44A2-9AC8-4FABD33364B7</string>
 			<key>to</key>
 			<string>D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D - D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D</string>
 		</dict>
-		<key>DF1F368F-2184-4B04-B8CB-38ACF12D1537</key>
+		<key>A317B8E8-A34A-442D-800A-510A73A4D40D</key>
 		<dict>
 			<key>from</key>
-			<string>3174DE13-BB77-4C54-9DB3-13F7008DAD51 - 3174DE13-BB77-4C54-9DB3-13F7008DAD51</string>
+			<string>D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D - D40CA8C5-8C5B-40DC-B98C-E49D15B7B09D</string>
 			<key>to</key>
+			<string>3174DE13-BB77-4C54-9DB3-13F7008DAD51 - 3174DE13-BB77-4C54-9DB3-13F7008DAD51</string>
+		</dict>
+		<key>B7E070B5-240C-4514-89FF-55AD6AA7B655</key>
+		<dict>
+			<key>from</key>
+			<string>87951FDD-6900-4527-A31B-41F231A1C67F - 87951FDD-6900-4527-A31B-41F231A1C67F</string>
+			<key>to</key>
+			<string>F32972ED-FB47-44A2-9AC8-4FABD33364B7 - F32972ED-FB47-44A2-9AC8-4FABD33364B7</string>
+		</dict>
+		<key>CA9B8E0B-760C-4E99-92E6-AA0B6D556889</key>
+		<dict>
+			<key>from</key>
+			<string>15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B - 15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B</string>
+			<key>to</key>
+			<string>B3CE5796-2936-47BD-9968-D0D165F4C35C - B3CE5796-2936-47BD-9968-D0D165F4C35C</string>
+		</dict>
+		<key>D0A5BCCC-9D09-4214-A3A9-A287451416F6</key>
+		<dict>
+			<key>from</key>
 			<string>F744D065-993A-4F66-82B4-4BC8196E6801 - F744D065-993A-4F66-82B4-4BC8196E6801</string>
+			<key>to</key>
+			<string>15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B - 15CA6F96-3F8F-4C2E-834E-C370FCEE4A7B</string>
+		</dict>
+		<key>EB027AA2-DEC5-4613-B1EC-6C09AE0409EF</key>
+		<dict>
+			<key>from</key>
+			<string>A90ACA99-6EF8-47AA-BAC7-A2EC5E2FD6C3 - A90ACA99-6EF8-47AA-BAC7-A2EC5E2FD6C3</string>
+			<key>to</key>
+			<string>87951FDD-6900-4527-A31B-41F231A1C67F - 87951FDD-6900-4527-A31B-41F231A1C67F</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -2135,6 +2135,27 @@
 	</array>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>applicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>applicationBundleIDsByPath</key>
+		<dict>
+			<key>/System/Library/CoreServices/Finder.app</key>
+			<string>com.apple.finder</string>
+		</dict>
+		<key>applicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>applicationPaths</key>
+		<array>
+			<string>/System/Library/CoreServices/Finder.app</string>
+		</array>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>15</integer>
+		<key>processesInput</key>
+		<integer>0</integer>
 		<key>serviceApplicationBundleID</key>
 		<string>com.apple.finder</string>
 		<key>serviceApplicationPath</key>
@@ -2144,6 +2165,10 @@
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>systemImageName</key>
+		<string>NSActionTemplate</string>
+		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
