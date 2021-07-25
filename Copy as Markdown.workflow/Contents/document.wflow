@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>492</string>
+	<string>509</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
@@ -79,9 +79,13 @@
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
+				<key>isViewVisible</key>
+				<integer>1</integer>
+				<key>location</key>
+				<string>207.000000:68.000000</string>
 			</dict>
+			<key>isViewVisible</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -124,7 +128,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		set theHTML to do shell script "osascript -e 'the clipboard as «class RTF »' | perl -ne 'print chr foreach unpack(\"C*\",pack(\"H*\",substr($_,11,-3)))' | textutil -stdin -stdout -convert html -format rtf"	set theMarkdown to do shell script "echo " &amp; the quoted form of theHTML &amp; "| /usr/local/bin/pandoc -f html-native_divs-native_spans -t markdown --wrap=none"	set the clipboard to theMarkdownend run</string>
+					<string>on run {input, parameters}		set theHTML to do shell script "osascript -e 'the clipboard as «class RTF »' | perl -ne 'print chr foreach unpack(\"C*\",pack(\"H*\",substr($_,11,-3)))' | textutil -stdin -stdout -convert html -format rtf"	set theMarkdown to do shell script "echo " &amp; the quoted form of theHTML &amp; "| ~/.brew/bin/pandoc -f html-native_divs-native_spans -t markdown --wrap=none"	set the clipboard to theMarkdownend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -175,12 +179,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>273.000000:433.000000</string>
+				<string>797.000000:433.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -190,7 +192,7 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>053C9115-1FD2-46A8-93A6-F0C0DA60A4EA</key>
+		<key>8F9EAEC3-11E8-4407-9F23-7DF6589FB534</key>
 		<dict>
 			<key>from</key>
 			<string>A4A529D8-D3EE-438F-9173-2304F2BCF891 - A4A529D8-D3EE-438F-9173-2304F2BCF891</string>
